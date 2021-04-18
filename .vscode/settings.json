@@ -1,0 +1,15 @@
+{
+  "cSpell.words": ["Interop", "accesstoken", "logform", "mailthat", "passwort", "printf", "typedi"],
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "deno.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

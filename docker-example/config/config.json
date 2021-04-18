@@ -1,0 +1,36 @@
+{
+  "outgoingSmtp": {
+    "host": "127.0.0.1",
+    "port": 1025,
+    "ignoreTLS": true,
+    "secure": false
+  },
+  "httpServices": [
+    {
+      "port": 8080,
+      "defaults": {
+        "to": "to@config.com",
+        "from": "from@config.com",
+        "subject": "subject from config",
+        "text": "text from config"
+      },
+      "auth": {
+        "type": "basic",
+        "username": "admin",
+        "password": "admin"
+      }
+    }
+  ],
+  "smtpServices": [
+    {
+      "port": 465,
+      "secure": false,
+      "allowedIps": [],
+      "auth": {
+        "type": "basic",
+        "username": "admin",
+        "password": "admin"
+      }
+    }
+  ]
+}

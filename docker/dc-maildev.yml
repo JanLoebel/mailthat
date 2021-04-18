@@ -1,0 +1,9 @@
+version: '3'
+services:
+  maildev:
+    hostname: maildev
+    image: djfarrelly/maildev
+    ports:
+      - "1080:80"
+      - "1025:25"
+

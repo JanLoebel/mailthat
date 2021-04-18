@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+  mailthat:
+    image: mailthat
+    volumes:
+      - ./config:/config
+    ports:
+      - 8080:8080
